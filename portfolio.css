@@ -1,3 +1,4 @@
+/* common shared style */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -13,7 +14,19 @@ body {
   padding: 18px 35px;
   border: none;
 }
-
+.section-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.section-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+}
 /* nav related style */
 
 nav {
@@ -54,7 +67,7 @@ nav a {
   width: 500px;
 }
 .banner-content {
-  width: 560px;
+  max-width: 560px;
 }
 .banner-greeting {
   font-size: 45px;
@@ -75,4 +88,37 @@ nav a {
   line-height: 30px;
   color: #757575;
   margin-top: 0;
+}
+
+/* main section style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section style */
+
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 130px;
+  margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+  line-height: 10px;
+}
+.info-title {
+  color: #757575;
+  font-size: 17px;
+}
+.info-description {
+  color: #474747;
+  font-weight: bold;
+  font-size: 20px;
 }
