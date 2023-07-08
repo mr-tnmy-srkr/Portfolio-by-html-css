@@ -1,5 +1,8 @@
 /* common shared style */
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 .text-primary {
@@ -55,13 +58,15 @@ nav a {
 /* header related style */
 .header {
   background-color: #fff8f3;
+  background-image: url(./images/header_bg.png), url(./images/developer.png);
+  background-position: bottom right, bottom left;
+  background-repeat: no-repeat;
 }
 .banner {
   padding: 47px 38px 0px 230px;
   display: flex;
-  background-image: url(./images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  align-items: center;
+  justify-content: space-between;
 }
 .banner > .profile-pic {
   width: 500px;
